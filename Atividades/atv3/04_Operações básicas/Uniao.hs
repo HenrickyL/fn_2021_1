@@ -1,4 +1,4 @@
-module Q10 (uniao) where
+module Uniao (uniao) where
 import Q5
 
 -- uniao :: [a] -> [a] -> [a]

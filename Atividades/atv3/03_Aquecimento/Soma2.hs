@@ -1,4 +1,4 @@
-module Q8 (soma2) where
+module Soma2 (soma2) where
 
 
 soma2 :: Int -> Int -> Int

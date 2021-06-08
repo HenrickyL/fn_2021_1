@@ -1,4 +1,4 @@
-module Q1 (somaImpares) where
+module SomaImpares (somaImpares) where
 
 
 somaImpares :: [Int] -> Int

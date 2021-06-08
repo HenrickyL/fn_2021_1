@@ -1,4 +1,4 @@
-module Q2 (max3) where
+module Max3 (max3) where
 max2 :: Int -> Int -> Int
 max2 x y 
     | x> y = x

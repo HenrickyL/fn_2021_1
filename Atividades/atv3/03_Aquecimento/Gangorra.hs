@@ -1,4 +1,4 @@
-module Q5 (gangorra) where
+module Gangorra (gangorra) where
 
 
 gangorra :: Int ->Int ->Int ->Int ->Int

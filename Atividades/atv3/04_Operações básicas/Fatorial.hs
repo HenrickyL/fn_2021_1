@@ -1,4 +1,4 @@
-module Q3 (fatorial) where
+module Fatorial (fatorial) where
 
 
 fatorial :: Int -> Int

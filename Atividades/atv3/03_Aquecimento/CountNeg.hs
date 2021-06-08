@@ -1,4 +1,4 @@
-module Q1 (contNeg) where
+module CountNeg (contNeg) where
 
 -- contNeg :: [Int] -> Int --definindo os tipos de entrada e saída
 -- contNeg [] = 0 -- caso base

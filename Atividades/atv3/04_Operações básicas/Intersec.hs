@@ -1,5 +1,5 @@
-module Q11 (intersec) where
-import Q5
+module Intersec (intersec) where
+import Pertence
 --intersec [3,4,1] [1,4,3] == [3,4,1]
 -- intersec :: [a] -> [a] -> [a]
 -- intersec xs [] = []

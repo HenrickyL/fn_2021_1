@@ -1,4 +1,4 @@
-module Q7 (maior) where
+module Maior (maior) where
 
 
 maior :: [Int] -> Int

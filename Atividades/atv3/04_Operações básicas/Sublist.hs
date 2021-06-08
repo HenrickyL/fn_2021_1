@@ -1,4 +1,4 @@
-module Q13 (sublist) where
+module Sublist (sublist) where
 
 
 -- sublist :: [a] -> [a]

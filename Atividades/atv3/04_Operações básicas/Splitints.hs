@@ -1,4 +1,4 @@
-module Q12 (splitints) where
+module Splitints (splitints) where
 
 
 -- splitints :: [a] -> ([a])

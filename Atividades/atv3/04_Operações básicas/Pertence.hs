@@ -1,4 +1,4 @@
-module Q5 (pertence) where
+module Pertence (pertence) where
 
 
 -- pertence :: a -> [Int] -> Bool

@@ -1,5 +1,5 @@
-module Q7 (min3) where
-import Q6(min2)
+module Min3 (min3) where
+import Min2
 
 min3 :: Int -> Int -> Int -> Int
 min3 x y z

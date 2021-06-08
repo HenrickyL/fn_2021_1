@@ -1,4 +1,4 @@
-module Q8 (corpo) where
+module Corpo (corpo) where
 
 
 corpo :: [a] -> [a]

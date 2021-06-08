@@ -1,4 +1,4 @@
-module Q4 (interior) where
+module Interior (interior) where
 
 
 interior :: [Int] -> [Int]

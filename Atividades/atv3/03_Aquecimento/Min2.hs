@@ -1,4 +1,4 @@
-module Q6 (min2) where
+module Min2 (min2) where
 
 
 min2 :: Int -> Int -> Int

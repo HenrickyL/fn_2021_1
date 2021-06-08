@@ -1,4 +1,4 @@
-module Q6 (total) where
+module Total (total) where
 
 
 total :: [Int] -> Int

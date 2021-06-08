@@ -1,4 +1,4 @@
-module Q9 (divide) where
+module Divide (divide) where
 aux [] n i = -1 --gambiarra
 aux (x:xs) n i
     |  x==n = i

@@ -1,4 +1,4 @@
-module Q2 (final) where
+module Final (final) where
 
 
 -- final :: Int -> [Int] -> [Int] 
