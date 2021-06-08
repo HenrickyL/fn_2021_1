@@ -1,0 +1,1 @@
+module.exports.interior = (xs)=>xs.slice(1,-1)

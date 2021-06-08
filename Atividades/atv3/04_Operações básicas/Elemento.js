@@ -1,0 +1,1 @@
+module.exports.elemento = (i,xs)=>xs[i]

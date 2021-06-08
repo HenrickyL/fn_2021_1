@@ -1,0 +1,1 @@
+module.exports.final = (n,xs)=> xs.slice(3)

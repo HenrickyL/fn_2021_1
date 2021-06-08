@@ -1,0 +1,1 @@
+module.exports.corpo = (xs)=>xs.slice(1)
