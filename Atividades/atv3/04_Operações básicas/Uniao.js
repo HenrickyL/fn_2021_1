@@ -1,0 +1,1 @@
+module.exports.uniao = (xs,ys)=> xs.filter(x=>!ys.includes(x)).concat(ys)

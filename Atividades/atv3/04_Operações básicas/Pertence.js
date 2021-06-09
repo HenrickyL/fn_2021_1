@@ -1,0 +1,1 @@
+module.exports.pertence = (n,xs)=> xs.filter(x=> x===n).length>0

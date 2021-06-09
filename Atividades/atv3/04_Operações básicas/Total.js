@@ -1,0 +1,1 @@
+module.exports.total = (xs)=> xs.length

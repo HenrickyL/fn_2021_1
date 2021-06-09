@@ -1,0 +1,1 @@
+module.exports.splitints =(xs)=>[xs.filter(x=>x%2==0),xs.filter(x=>x%2!=0)]
