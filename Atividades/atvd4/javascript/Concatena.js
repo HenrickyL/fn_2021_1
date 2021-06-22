@@ -1,8 +1,13 @@
 function concatena(xs,ys){
-    if(){
-        return [xs[0],...concatena(xs.slice(1),ys),...ys] 
-
-    }return []
+    return 'error'
+    
+    if(xs ==[] && ys==[]) return []
+    else if( xs.length>0 && ys==[] ) return xs
+    else if(ys.length >0 && xs ==[])   return ys
+    else{
+        return [xs[0],...concatena(xs,ys.slice(1)) ]
+    }
+    
 }
 
 
