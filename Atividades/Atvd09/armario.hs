@@ -69,10 +69,11 @@ devolucao indice codigo armarios
     where
         eitherCurrent = pegarArmario indice armarios
         current = Data.Either.fromRight (Livre,"") eitherCurrent
+        f = Map.map (\a -> if (snd a) == (snd current) then (Livre,snd a) else a) armarios  
         aux 
+            | codigo /= snd current = Data.Either.Left "Codigo errado"  
             | fst current == Livre = Data.Either.Left "Desocupado"
             | otherwise = Data.Either.Right f
-        f = Map.map (\a -> if (snd a) == (snd current) then (Livre,snd a) else a) armarios  
 
 
 lockers :: Armarios
